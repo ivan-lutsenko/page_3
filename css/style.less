@@ -210,8 +210,6 @@ html, body{
 		text-transform: uppercase;
 		font-family: "HelveticaBold";
 	}
-
-
 	margin-top: -10px;
 	float: left;
 }
@@ -316,8 +314,10 @@ html, body{
 
 .centernews{
 	.center(960px);
-	padding-top: 25px;
+	padding: 25px;
 	text-align: center;
+
+	border-bottom: 2px solid #42444e;
 
 	&__img{
 		width: 22%;
@@ -339,6 +339,13 @@ html, body{
 		display: inline-block;
 		vertical-align: top;
 	}
+	&__search{
+		margin-left: 20px;
+		cursor: pointer;
+
+		display: inline-block;
+		vertical-align: top;
+	}
 }
 
 .text{
@@ -352,6 +359,148 @@ html, body{
 	&__mag{
 		margin-top: 30px;
 		font-size: 14px;
+	}
+}
+
+.search{
+	&__img{
+		width: 100%;
+		height: auto;
+	}
+}
+
+.centertext{
+	.center(960px);
+	margin-top: 55px;
+}
+
+.descr{
+	&__text{
+		font-size: 18px;
+		font-family: "HelveticaThin";
+		color: #b1b4c0;
+		text-align: left;
+	}
+}
+
+.color{
+	&__text{
+		color: rgb(255, 255, 255);
+	}
+}
+
+footer{
+	.img('background', 370px);
+	margin-top: -4px;
+}
+
+.centerfooter{
+	.center(960px);
+	padding: 25px;
+	text-align: center;
+}
+
+.logofooter{
+	&__text{
+		text-align: left;
+		color: #FFFFFF;
+		font-size: 18px;
+		text-transform: uppercase;
+		font-family: "HelveticaBold";
+	}
+}
+
+.widget{
+	margin-top: 40px;
+	text-align: left;
+	&__text{
+		font-size: 12px;
+		line-height: 1.833;
+		text-align: left;
+		font-family: "HelveticaThin";
+		color: #b1b4c0;
+		text-align: left;
+
+		display: inline-block;
+		vertical-align: top;
+
+		width: 63%;
+	}
+	&__form{
+		margin-left: 20px;
+		display: inline-block;
+		vertical-align: top;
+
+		position: relative;
+	}
+}
+
+.form{
+	&__input{
+		padding: 2px 35px;
+		height: 38px;
+		width: 220px;
+		background: #16171d;
+		color: #fff;
+		font-size: 15px;
+		font-family: "HelveticaThin";
+		border-radius: 5px;
+		border: 1px solid #716363;
+		outline: none;
+		background-image: url('../img/input-search.png');   
+    	background-repeat: no-repeat; 
+    	background-position: 12px;
+    	&:focus, &:hover{
+    		border: 1px solid #3145BC;
+    	}
+	}
+	&__button{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		cursor: pointer;
+		&:active{
+			width: 50px;
+		}
+	}
+}
+
+.twitter{
+	margin-top: 25px;
+	&__button{
+		padding: 15px;
+		background: #2d3038;
+		height: 30px;
+		border-radius: 5px;
+		display: block;
+		text-decoration: none;
+	}
+	&__copy{
+		margin-top: 25px;
+		font-size: 11px;
+		font-family: "HelveticaThin";
+		color: rgba(255, 255, 255, 0.4);
+	}
+}
+
+.img{
+	&__twitter{
+		display: inline-block;
+		vertical-align: top;
+	}
+	&__text{
+		display: inline-block;
+		vertical-align: middle;
+		padding: 5px;
+		font-size: 14px;
+		font-family: "HelveticaBold";
+		color: #fff;
+	}
+}
+
+.font{
+	&__text{
+		font-family: "HelveticaThin";
 	}
 }
 
@@ -370,5 +519,3 @@ html, body{
 .slick-prev:before, .slick-next:before{
 	color: black;
 }
-
-/*Карусели*/
