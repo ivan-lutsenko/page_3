@@ -138,6 +138,7 @@ html,
 body {
   padding: 0px;
   margin: 0px;
+  overflow-x: hidden;
 }
 .block1 {
   background-image: url('../img/background.png');
@@ -264,6 +265,7 @@ body {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
+  width: 95%;
   padding: 25px;
   text-align: center;
   border-bottom: 2px solid #42444e;
@@ -349,6 +351,7 @@ footer {
 .widget {
   margin-top: 40px;
   text-align: left;
+  width: 98%;
 }
 .widget__text {
   font-size: 12px;
@@ -404,6 +407,7 @@ footer {
   border-radius: 5px;
   display: block;
   text-decoration: none;
+  width: 92%;
 }
 .twitter__copy {
   margin-top: 25px;
